@@ -1,14 +1,13 @@
-let x = 1;
+let x = 1 + 5;
 
 switch (x) {
   case 2:
-    console.log("не та цифра");
-    break;
+  case 6:
   case 5:
-    console.log("не та цифра");
+    console.log("2 или 6 или 5");
     break;
   case 1:
-    console.log("точно в цель");
+    console.log("не та цифра");
     break;
   case 7:
     console.log("не так цифра");
